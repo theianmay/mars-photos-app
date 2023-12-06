@@ -1,4 +1,4 @@
-This finished app is the result of my successful completion of this project/part of the 'Android Basics in Kotlin' course using starter code provided by Google Developer Training. You can find the course at this link: https://developer.android.com/courses/android-basics-kotlin/course
+This app is the result of my successful completion of this project/part of the 'Android Basics in Kotlin' course. I used starter code provided by Google Developer Training resources and then wrote additional code in Kotlin to make the app functional. You can find the course at this link: https://developer.android.com/courses/android-basics-kotlin/course
 ==================================
 
 MarsPhotos - Starter Code
