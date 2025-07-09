@@ -34,9 +34,7 @@ While building this app, I deepened my understanding of:
 
 | Home Screen | Loading State | Image Detail |
 |-------------|----------------|---------------|
-| ![home](screenshots/home.png) | ![loading](screenshots/loading.png) | ![detail](screenshots/detail.png) |
-
-> _Make sure to replace these with your actual screenshots stored in a `screenshots/` folder in your repo._
+| ![home](home.png) | ![loading](loading.png) | ![detail](detail.png) |
 
 ## 🚀 Getting Started
 
