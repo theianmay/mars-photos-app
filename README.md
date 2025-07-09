@@ -1,34 +1,57 @@
-This app is the result of my successful completion of this project/part of the 'Android Basics in Kotlin' course. I used starter code provided by Google Developer Training resources and then wrote additional code in Kotlin to make the app functional. You can find the course at this link: https://developer.android.com/courses/android-basics-kotlin/course
-==================================
+# Mars Photo Viewer
 
-MarsPhotos - Starter Code
-==================================
+An Android app built in Kotlin that displays real Mars rover photos from NASA's public REST API.
 
-Starter code for [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course).
+This project demonstrates the use of modern Android development practices, including:
 
-Introduction
-------------
+- **Retrofit** for making RESTful API calls
+- **Moshi** for parsing JSON into Kotlin data classes
+- **Coil** for efficient image loading
+- **ViewModel** and **LiveData** for lifecycle-aware data handling
+- **Coroutines** for background network operations
+- **Data Binding** with custom binding adapters for cleaner UI logic
 
-Using this stater code you will create MarsPhotos is a demo app that shows actual images of Mar's surface. These images are
-real-life photos from Mars captured by NASA's Mars rovers. The data is stored on a Web server
-as a REST web service.  The solution app will demonstrate the use of [Retrofit](https://square.github.io/retrofit/) to make REST requests to the web service, [Moshi](https://github.com/square/moshi) to
-handle the deserialization of the returned JSON to Kotlin data objects, and [Coil](https://coil-kt.github.io/coil/) to load images by URL.
+## 📚 What I Learned
 
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[LiveData](https://developer.android.com/topic/libraries/architecture/livedata), and
-[Data Binding](https://developer.android.com/topic/libraries/data-binding/) with binding 
-adapters.
+While building this app, I deepened my understanding of:
+- Asynchronous programming with coroutines and lifecycle-aware components
+- Structuring apps using Android’s recommended MVVM architecture
+- Networking best practices in Android apps
+- Efficient image handling and caching
+- Declarative UI binding using XML + Data Binding
 
-Pre-requisites
---------------
+## 🔧 Tech Stack
 
-You need to know:
-- How to create and use fragments.
-- How to use architecture components including ViewModel, and LiveData.
-- How to use coroutines for long-running tasks.
+- Language: Kotlin  
+- Architecture: MVVM  
+- Networking: Retrofit + Moshi  
+- Image Loading: Coil  
+- Lifecycle: ViewModel, LiveData  
+- UI: XML Layouts with Data Binding  
+- Concurrency: Kotlin Coroutines  
 
+## 📸 Screenshots
 
-Getting Started
----------------
+| Home Screen | Loading State | Image Detail |
+|-------------|----------------|---------------|
+| ![home](screenshots/home.png) | ![loading](screenshots/loading.png) | ![detail](screenshots/detail.png) |
 
-1. Download and run the app.
+> _Make sure to replace these with your actual screenshots stored in a `screenshots/` folder in your repo._
+
+## 🚀 Getting Started
+
+To run this app locally:
+
+1. Clone the repository  
+2. Open in Android Studio  
+3. Build and run on an emulator or physical device with internet access
+
+---
+
+## 🌐 API Source
+
+This app uses NASA’s [Mars Rover Photos API](https://api.nasa.gov/) to fetch real-time rover images.
+
+---
+
+Let me know if you'd like help writing a project description for GitHub (above the repo), or if you want to auto-generate the screenshots with `adb` or emulator tools!
