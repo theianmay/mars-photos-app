@@ -52,6 +52,4 @@ To run this app locally:
 
 This app uses NASA’s [Mars Rover Photos API](https://api.nasa.gov/) to fetch real-time rover images.
 
----
-
-Let me know if you'd like help writing a project description for GitHub (above the repo), or if you want to auto-generate the screenshots with `adb` or emulator tools!
+Credit to Google Developer Training
