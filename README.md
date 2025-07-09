@@ -34,7 +34,7 @@ While building this app, I deepened my understanding of:
 
 | Home Screen | Loading State | Image Detail |
 |-------------|----------------|---------------|
-| ![home](home.png) | ![loading](loading.png) | ![detail](detail.png) |
+| ![home](screenshots/home.png) | ![loading](screenshots/loading.png) | ![detail](screenshots/detail.png) |
 
 ## 🚀 Getting Started
 
